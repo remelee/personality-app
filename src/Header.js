@@ -12,16 +12,19 @@ function Header() {
             fontSize="large" />
             </IconButton>
 
-            
+            <a href= '/'>
             <img 
             className="header_logo"
             src="https://static-00.iconduck.com/assets.00/moon-icon-1868x2048-ifpp8fum.png" 
             alt="app-logo"/>
-            
+            </a>
+
+            <a href='/chat'>
             <IconButton>
             <ChatIcon className="header_icon"
             fontSize="large"/>
             </IconButton>
+            </a>
 
         </div>
     )

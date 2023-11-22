@@ -1,19 +1,15 @@
 import React from 'react';
-import Header from './Header';
 import Cards from './Cards';
+import SwipeButtons from './SwipeButtons'
 import './App.css';
 
 
   function App() {
-    return (
-      
+    return (   
       <div className="App">
-        <Header />
         <Cards />
+        <SwipeButtons />
              
-                 
-      {/* Tinder Cards */}
-      {/* Buttons below tinder cards */}
       {/* Chat screen */}
       {/* Individual chat screen */} 
       </div>

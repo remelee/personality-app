@@ -3,12 +3,32 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Header from './Header';
+import Chats from'./Chats';
+import ChatScreen from './ChatScreen';
+import {createBrowserRouter,
+RouterProvider,} from 'react-router-dom'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App/> 
+    },
+    {
+      path: "/chat",
+      element: <Chats/>
+    },
+    {
+      path: "/chat/:person",
+      element: <ChatScreen/>
+    }
+])
+
 root.render(
   <React.StrictMode>
     <Header />
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
