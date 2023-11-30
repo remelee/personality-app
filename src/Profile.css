@@ -1,0 +1,8 @@
+.editing-profile{
+    padding: 10px;
+    color: rgb(47, 47, 47);
+}
+.profile-page{
+    justify-content: space-between;
+    display:flex;
+}

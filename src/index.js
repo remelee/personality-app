@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Header from './Header';
 import Chats from'./Chats';
 import ChatScreen from './ChatScreen';
+import Profile from './Profile';
 import {createBrowserRouter,
 RouterProvider,} from 'react-router-dom'
 
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
     {
       path: "/chat/:person",
       element: <ChatScreen/>
+    },
+    {
+      path: "/profile",
+      element: <Profile/>
     }
 ])
 

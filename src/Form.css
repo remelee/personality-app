@@ -1,0 +1,28 @@
+.input{
+    color: gray;
+}
+.form_input{
+    padding: 20px;
+    
+}
+.form-name{
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+.form-horo{
+    padding: 5px;
+    border-radius: 5px;
+}
+.form-mbti{
+    padding: 5px;
+    border-radius: 5px;
+}
+.form-enne{
+    padding: 5px;
+    border-radius: 5px;
+}
+.save-button{
+    padding: 10px;
+    background-color: navajowhite;
+}

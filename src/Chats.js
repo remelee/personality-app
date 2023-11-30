@@ -4,10 +4,10 @@ import Chat from "./Chat";
 function Chats(){
     return <div className="chats">
         <Chat
-        name="Bob"
-        message="YO whats up!"
+        name="Jennie"
+        message="Hows it going?"
         timestamp="40 seconds ago"
-        profilePic="https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d0a4481f-e801-4cb7-9daa-17cdae32cc89/icon-design-21-opt.png"
+        profilePic="https://images.ctfassets.net/awpxl2koull4/y657MYHdReGAqQ4QymQiW/b146300bf6c24d8612435ce85d952784/emotional_resilience.jpg?fit=fill&w=1920&h=1440"
         />
         <Chat
         name="Maryam"

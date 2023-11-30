@@ -1,0 +1,40 @@
+
+.more-info{
+    padding: 10px;
+    position: sticky;
+    color: rgb(47, 47, 47);
+}
+.links{
+    color: #71597E;
+}
+.horoscope-info{
+    padding: 30px 190px;
+    border-radius: 20px;
+    background: #FAFAFA
+    
+}
+.horoscope-info:hover{
+    color: white;
+    background: rgb(173,140,195);
+    background: linear-gradient(333deg, rgba(173,140,195,1) 0%, rgba(148,187,233,1) 100%);
+}
+.mbti-info{
+    padding: 30px 218px;
+    border-radius: 20px;
+    background-color:#FAFAFA;
+}
+.mbti-info:hover{
+    color: white;
+    background: rgb(173,140,195);
+    background: linear-gradient(333deg, rgba(173,140,195,1) 0%, rgba(148,187,233,1) 100%);
+}
+.enneagram-info{
+    padding: 30px 195px;
+    border-radius: 20px;
+    background-color:#FAFAFA;
+}
+.enneagram-info:hover{
+    color: white;
+    background: rgb(173,140,195);
+    background: linear-gradient(333deg, rgba(173,140,195,1) 0%, rgba(148,187,233,1) 100%);
+}

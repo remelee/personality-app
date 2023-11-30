@@ -7,16 +7,13 @@ function ChatScreen(){
     const [messages, setMessages]=useState([
         {
             name: 'Ellen',
-            image: 'https://sumo.app/works/cute-frog-pfp-2jpg/thumb',
+            image: 'https://images.ctfassets.net/awpxl2koull4/y657MYHdReGAqQ4QymQiW/b146300bf6c24d8612435ce85d952784/emotional_resilience.jpg?fit=fill&w=1920&h=1440',
             message: 'Whats up'
         },
         {
             name: 'Ellen',
-            image: 'https://sumo.app/works/cute-frog-pfp-2jpg/thumb',
+            image: 'https://images.ctfassets.net/awpxl2koull4/y657MYHdReGAqQ4QymQiW/b146300bf6c24d8612435ce85d952784/emotional_resilience.jpg?fit=fill&w=1920&h=1440',
             message: 'Hows it going?'
-        },
-        {
-            message: 'hi'
         }
     ]);
 
@@ -29,7 +26,7 @@ function ChatScreen(){
     return (
         <div className="chatScreen">
             <p className="chatScreen_timestamp">
-                YOU MATCHED ON 11/22/23
+                YOU MATCHED ON 12/3/23
                 </p>
                 {messages.map((message) => 
                     message.name ?(

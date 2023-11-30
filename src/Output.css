@@ -1,0 +1,14 @@
+.output{
+    padding: 20px;
+    display: flex;
+}
+.output-photo{
+    object-fit: contain;
+    height: 250px;
+    border-radius: 250px;
+}
+.description{
+   margin-left: 40px;
+   margin-top: 45px;
+   font-size: 25px;
+}

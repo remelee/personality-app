@@ -10,10 +10,10 @@
     flex: 1;
 }
 .chat_details > p {
-    color: gray;
+    color: #5B535F
 }
 .chat_timestamp {
-    color: lightgray;
+    color: #BFB0C7
 }
 .chat_image{
     margin-right: 20px;

@@ -13,19 +13,19 @@ const SwipeButtons=() =>{
     return(
         <div className="swipeButtons">
             <IconButton>
-                <ReplayIcon fontSize="large"/>
+                <ReplayIcon fontSize="large" color="primary"/>
             </IconButton>
             <IconButton>
-                <CloseIcon fontSize="large"/>
+                <CloseIcon fontSize="large" color="primary"/>
             </IconButton>
             <IconButton>
-                <StarRateIcon fontSize="large"/>
+                <StarRateIcon fontSize="large" color="primary"/>
             </IconButton>
             <IconButton>
-                <FavoriteIcon fontSize="large"/>
+                <FavoriteIcon fontSize="large" color="primary"/>
             </IconButton>
             <IconButton>
-                <FlashOnIcon fontSize="large"/>
+                <FlashOnIcon fontSize="large" color="primary"/>
             </IconButton>
             
         </div>
