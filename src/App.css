@@ -1,3 +1,10 @@
 body{
-  background-color:rgb(232, 227, 255)
+  background-image: url("https://i.pinimg.com/originals/a8/05/4b/a8054bd49daa169530dcb99b0c606a66.gif");
+  background-size: 1920px 1080px;
+  height: 100%;
+  font-family: retro-gaming;
+}
+@font-face{
+  font-family: retro-gaming;
+  src: url("Retro Gaming.ttf")
 }

@@ -1,8 +1,11 @@
 .editing-profile{
     padding: 10px;
     color: rgb(47, 47, 47);
+    background-color: hsl(350, 100%, 88%, 80%);
 }
 .profile-page{
     justify-content: space-between;
     display:flex;
+    background-color: hsla(300, 49%, 69%, 0.8);
 }
+  

@@ -51,7 +51,7 @@ export default function Form({
         <br />
         <br />
 
-        <label htmlFor="form-horo"><b>Horoscope:</b> </label>
+        <label htmlFor="form-horo"><b>Zodiac:</b> </label>
         <input className="form-horo"
           id="form-horo"
           type="text"

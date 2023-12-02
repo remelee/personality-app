@@ -4,7 +4,8 @@
     justify-content: space-between;
     padding: 20px;
     height: 70px;
-    border-bottom: 1px solid #fafafa
+    border-bottom: 1px solid #fafafa;
+    background-color: rgb(212, 210, 210, .8);
 }
 .chat_details{
     flex: 1;
@@ -13,7 +14,7 @@
     color: #5B535F
 }
 .chat_timestamp {
-    color: #BFB0C7
+    color: #5d5462
 }
 .chat_image{
     margin-right: 20px;

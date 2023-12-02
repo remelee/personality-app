@@ -7,13 +7,13 @@ function Chats(){
         name="Jennie"
         message="Hows it going?"
         timestamp="40 seconds ago"
-        profilePic="https://images.ctfassets.net/awpxl2koull4/y657MYHdReGAqQ4QymQiW/b146300bf6c24d8612435ce85d952784/emotional_resilience.jpg?fit=fill&w=1920&h=1440"
+        profilePic="https://www.vmcdn.ca/f/files/via/images/arts/soft-girl-thumb.jpg;w=1080;h=885;mode=crop"
         />
         <Chat
         name="Maryam"
         message="Hehehe"
         timestamp="2 days ago"
-        profilePic="https://images.lifestyleasia.com/wp-content/uploads/sites/7/2020/06/30211551/libra-1.png"
+        profilePic="https://scontent.xx.fbcdn.net/v/t1.15752-9/404223062_743506864493121_8748276069595439443_n.jpg?stp=dst-jpg_s403x403&_nc_cat=109&ccb=1-7&_nc_sid=510075&_nc_ohc=_3HCAPacau4AX9aAwjt&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQZFbPWVx6wqabJn3fFGzhsKeqCVghx00ZhPxBUtOGHVQ&oe=6591E235"
         />
     </div>;
 }

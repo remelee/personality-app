@@ -12,7 +12,7 @@
 .chatScreen_timestamp{
     text-align: center;
     padding: 20px;
-    color: gray;
+    color: rgb(255, 255, 255);
 }
 
 .chatScreen_textUser{
@@ -25,23 +25,28 @@
 }
 
 .chatScreen_input{
+    
     display: flex;
     padding: 5px;
     position: fixed;
     bottom: 0;
     width: 100%;
-    border-top: 1px solid lightgray;
+    border-top: 1px solid hsl(0, 0%, 83%)
 
 }
 .chatScreen_inputField{
+    font-size: 18px;
     flex: 1;
-    padding: 10px;
+    padding: 3vh;
     border: none;
+    background-color: hsla(0, 0%, 100%, 80%);
 }
 .chatScreen_inputButton{
+    font-size: 18px;
     border: none;
     margin-right: 20px;
     background-color: white;
     font-weight: bolder;
-    color: #fe3d71;
+    background-color: hsla(0, 0%, 100%, 80%);
+    color: #b73dfe;
 }

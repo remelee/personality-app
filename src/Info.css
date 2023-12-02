@@ -6,35 +6,38 @@
 }
 .links{
     color: #71597E;
+    font-size: 18px;
 }
 .horoscope-info{
-    padding: 30px 190px;
-    border-radius: 20px;
+    margin-left: 40px;
+    padding: 25px 216px;
+    border-radius: 50px;
     background: #FAFAFA
-    
 }
 .horoscope-info:hover{
     color: white;
-    background: rgb(173,140,195);
-    background: linear-gradient(333deg, rgba(173,140,195,1) 0%, rgba(148,187,233,1) 100%);
+    background: rgb(202,75,255);
+    background: linear-gradient(90deg, rgba(202,75,255,1) 0%, rgba(222,147,223,1) 35%, rgba(255,132,205,1) 100%);
 }
 .mbti-info{
-    padding: 30px 218px;
-    border-radius: 20px;
+    margin-left: 40px;
+    padding: 25px 235px;
+    border-radius: 50px;
     background-color:#FAFAFA;
 }
 .mbti-info:hover{
     color: white;
-    background: rgb(173,140,195);
-    background: linear-gradient(333deg, rgba(173,140,195,1) 0%, rgba(148,187,233,1) 100%);
+    background: rgb(202,75,255);
+    background: linear-gradient(90deg, rgba(202,75,255,1) 0%, rgba(222,147,223,1) 35%, rgba(255,132,205,1) 100%);
 }
 .enneagram-info{
-    padding: 30px 195px;
-    border-radius: 20px;
+    margin-left: 40px;
+    padding: 25px 200px;
+    border-radius: 50px;
     background-color:#FAFAFA;
 }
 .enneagram-info:hover{
     color: white;
-    background: rgb(173,140,195);
-    background: linear-gradient(333deg, rgba(173,140,195,1) 0%, rgba(148,187,233,1) 100%);
+    background: rgb(202,75,255);
+    background: linear-gradient(90deg, rgba(202,75,255,1) 0%, rgba(222,147,223,1) 35%, rgba(255,132,205,1) 100%);
 }

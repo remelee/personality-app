@@ -7,6 +7,7 @@ import Header from './Header';
 import Chats from'./Chats';
 import ChatScreen from './ChatScreen';
 import Profile from './Profile';
+import HoroDates from './HoroDates';
 import {createBrowserRouter,
 RouterProvider,} from 'react-router-dom'
 
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
     {
       path: "/profile",
       element: <Profile/>
+    },
+    {
+      path: "/horoscope",
+      element: <HoroDates/>
     }
 ])
 

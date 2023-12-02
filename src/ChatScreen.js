@@ -6,13 +6,13 @@ function ChatScreen(){
     const [input, setInput]=useState('');
     const [messages, setMessages]=useState([
         {
-            name: 'Ellen',
-            image: 'https://images.ctfassets.net/awpxl2koull4/y657MYHdReGAqQ4QymQiW/b146300bf6c24d8612435ce85d952784/emotional_resilience.jpg?fit=fill&w=1920&h=1440',
+            name: 'Jennie',
+            image: 'https://www.vmcdn.ca/f/files/via/images/arts/soft-girl-thumb.jpg;w=1080;h=885;mode=crop',
             message: 'Whats up'
         },
         {
-            name: 'Ellen',
-            image: 'https://images.ctfassets.net/awpxl2koull4/y657MYHdReGAqQ4QymQiW/b146300bf6c24d8612435ce85d952784/emotional_resilience.jpg?fit=fill&w=1920&h=1440',
+            name: 'Jennie',
+            image: 'https://www.vmcdn.ca/f/files/via/images/arts/soft-girl-thumb.jpg;w=1080;h=885;mode=crop',
             message: 'Hows it going?'
         }
     ]);

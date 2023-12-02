@@ -13,19 +13,10 @@ const SwipeButtons=() =>{
     return(
         <div className="swipeButtons">
             <IconButton>
-                <ReplayIcon fontSize="large" color="primary"/>
+                <img className="ghost" src="https://64.media.tumblr.com/536ff61c1beb4b95a8125dd3d9b61b2f/tumblr_mqq8rk5J7s1rfjowdo1_500.gif"></img>
             </IconButton>
             <IconButton>
-                <CloseIcon fontSize="large" color="primary"/>
-            </IconButton>
-            <IconButton>
-                <StarRateIcon fontSize="large" color="primary"/>
-            </IconButton>
-            <IconButton>
-                <FavoriteIcon fontSize="large" color="primary"/>
-            </IconButton>
-            <IconButton>
-                <FlashOnIcon fontSize="large" color="primary"/>
+                <img className="heart" src="https://img1.picmix.com/output/stamp/normal/8/2/7/4/1754728_6d35b.gif"></img>
             </IconButton>
             
         </div>

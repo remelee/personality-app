@@ -6,7 +6,7 @@ function Info(){
         <br/>
         <br/>
             <a className="horoscope-info"
-            href="https://www.britannica.com/topic/zodiac">Horoscope dates</a>
+            href='/horoscope'>Zodiac dates</a>
             <br/>
             <br/>
             <br/>
