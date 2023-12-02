@@ -16,7 +16,6 @@ function TinderCards(){
         })
     }, [])
   
-      
     return (
         <div>
             <div className="cards_container">
